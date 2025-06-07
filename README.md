@@ -1,4 +1,4 @@
-##3D Interactive Skeleton Viewer 🦴
+## 3D Interactive Skeleton Viewer 🦴
 
 
 <img width="835" alt="image" src="https://github.com/user-attachments/assets/9f84e3ff-8306-4029-a38f-135a459ba619" />
