@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular 3D Product Viewer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <!-- javascript modules -->
+    <script src="initScene.js"></script>
+    <script src="createProduct.js"></script>
+    <script src="addLighting.js"></script>
+    <script src="interaction.js"></script>
+    <script src="cameraAnimation.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Modular 3D Product Viewer</h1>
+        <p class="subtitle">A modular implementation of a 3D human skeleton viewer using Three.js with separated functionality</p>
+    </header>
+    <div class="content">
+        <div class="viewer-container">
+            <canvas id="viewer"></canvas>
+            <!-- <div class="module-info"> -->
+                <!-- <div class="module-title">Active Modules:</div>
+                <div>initScene, createProduct, addLighting, interaction, cameraAnimation</div> -->
+            <!-- </div> -->
+            <div class="instructions">
+                <p>← → Drag to rotate | Scroll to zoom | Hold Ctrl + drag to pan</p>
+            </div>
+            <div class="auto-rotate-indicator">
+                <div class="indicator-dot"></div>
+                <span>Auto Rotation: ON</span>
+            </div>
+        </div>
+        
+        <div class="controls-panel">
+            <h2 class="panel-title">Controls & Information</h2>
+            
+            <div class="control-group">
+                <h3 class="control-label">Camera Controls</h3>
+                <div class="control-item">
+                    <button id="toggle-rotation">Pause Auto Rotation</button>
+                </div>
+                <div class="control-item">
+                    <button id="reset-view">Reset Camera View</button>
+                </div>
+            </div>
+            <div class="control-group">
+                <h3 class="control-label">Skeleton Parts</h3>
+                <ul class="part-list">
+                    <li data-part="skull">Skull</li>
+                    <li data-part="spine">Spine</li>
+                    <li data-part="ribs">Ribs</li>
+                    <li data-part="pelvis">Pelvis</li>
+                    <li data-part="leftArm">Left Arm</li>
+                    <li data-part="rightArm">Right Arm</li>
+                    <li data-part="leftLeg">Left Leg</li>
+                    <li data-part="rightLeg">Right Leg</li>
+                </ul>
+            </div>
+            <div class="info-panel" id="info-panel">
+                <h3 class="info-title" id="part-title">Part Information</h3>
+                <p class="part-info" id="part-info">Select a skeleton part to see details here.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Modular Three.js Implementation | Scene, Skeleton, Lighting, Interaction, and Animation in Separate Modules</p>
+    </footer>
+</body>
+</html>
