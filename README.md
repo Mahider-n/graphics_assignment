@@ -1,4 +1,6 @@
-3D Interactive Skeleton Viewer 🦴
+##3D Interactive Skeleton Viewer 🦴
+
+
 <img width="835" alt="image" src="https://github.com/user-attachments/assets/9f84e3ff-8306-4029-a38f-135a459ba619" />
 
 
@@ -30,7 +32,7 @@ Local Setup (with Vite)
 
 Clone the repository:
 git clone [https://github.com/your-username/3d-skeleton-viewer.git](https://github.com/Mahider-n/graphics_assignment.git)
-cd 3d-skeleton-viewer
+ 
 
 Install dependencies:
 npm install
