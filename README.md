@@ -6,7 +6,7 @@
 
 This interactive 3D skeleton viewer is built with Three.js to demonstrate a modular implementation of a product viewer using only basic geometries. The application allows users to explore a detailed human skeleton model through both manual controls and automated camera rotation.
 
-Features ✨
+### Features ✨
 Interactive 3D Model: Explore a skeleton composed entirely of basic geometries (boxes, cylinders, spheres)
 
 Intuitive Controls:
@@ -27,7 +27,7 @@ Visual Feedback: Parts highlight on hover and selection
 
 Modular Architecture: Clean code organization with separate modules
 
-How to Run 🚀
+### How to Run 🚀
 Local Setup (with Vite)
 
 Clone the repository:
@@ -50,7 +50,7 @@ http://localhost:5173
 
 
 
-Mobile Access
+### Mobile Access
 The application is fully responsive and works on mobile devices:
 
 Open your mobile browser
@@ -65,7 +65,7 @@ Pinch to zoom
 
 Tap skeleton parts aside  too thorough in the skeleton model
 
-Technologies Used
+### Technologies Used
 Three.js 
 
 Vite 
