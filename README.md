@@ -29,7 +29,7 @@ How to Run 🚀
 Local Setup (with Vite)
 
 Clone the repository:
-git clone https://github.com/your-username/3d-skeleton-viewer.git
+git clone [https://github.com/your-username/3d-skeleton-viewer.git](https://github.com/Mahider-n/graphics_assignment.git)
 cd 3d-skeleton-viewer
 
 Install dependencies:
@@ -41,6 +41,8 @@ npx vite
 Open in your browser:
  
 http://localhost:5173
+
+
 ⚠️ Make sure you have Node.js installed.
 
 
